@@ -1,0 +1,79 @@
+:root{
+  background-color: #f0c9ea; 
+}
+
+.container{
+  width: 80%;
+  border: 1px solid black;
+  background: white;
+  height: 70vh;
+  margin: auto;
+  margin-top: 5%;
+  border-radius: 15px;
+}
+
+.fields{
+  margin: 5% 10%;
+}
+
+#field__title{
+  font-size: 18px;
+  font-weight: bold;
+  color:  rgb(26,26,26);
+  margin-bottom: 5%;
+}
+
+#btnlogin{
+  background-color: #e8258e;
+  border: none;
+  color:  #ffff;
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.pink-font>a{
+  text-decoration: none;
+  color: #e8258e;
+}
+
+a{
+  text-decoration: none;
+}
+
+.field__textboxs{
+  border: 1px solid #ffff;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+field__textboxs > input{
+  height: 40px;
+  border: 1px solid silver;
+  border-radius:  10px;
+  margin-bottom: 5%;
+}
+
+.field__remember{
+  margin-bottom: 20px;
+}
+
+.fields-recovery > a, .fields-create > a{
+  text-decoration: none;
+  color: rgb(22,22,22);
+}
+
+.fields-recovery{
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+}
+.fields-create{
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+}
